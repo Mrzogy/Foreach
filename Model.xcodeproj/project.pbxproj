@@ -11,6 +11,13 @@
 		B73B1DD52A1A66F8001F3BFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B1DD42A1A66F8001F3BFE /* ContentView.swift */; };
 		B73B1DD72A1A66FA001F3BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73B1DD62A1A66FA001F3BFE /* Assets.xcassets */; };
 		B73B1DDA2A1A66FA001F3BFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73B1DD92A1A66FA001F3BFE /* Preview Assets.xcassets */; };
+		B73B1DE12A1A676B001F3BFE /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B1DE02A1A676A001F3BFE /* BookModel.swift */; };
+		B73B1DE32A1A6900001F3BFE /* Boocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B1DE22A1A6900001F3BFE /* Boocks.swift */; };
+		B73B1DE52A1A6D4B001F3BFE /* HH.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B1DE42A1A6D4B001F3BFE /* HH.swift */; };
+		B73B1DE72A1A6D50001F3BFE /* MM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B1DE62A1A6D50001F3BFE /* MM.swift */; };
+		B73B1DE92A1AB340001F3BFE /* TravelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B1DE82A1AB340001F3BFE /* TravelModel.swift */; };
+		B73B1DED2A1AB4B7001F3BFE /* Travels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B1DEC2A1AB4B7001F3BFE /* Travels.swift */; };
+		B73B1DEF2A1AC467001F3BFE /* Travel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B1DEE2A1AC467001F3BFE /* Travel2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		B73B1DD42A1A66F8001F3BFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B73B1DD62A1A66FA001F3BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B73B1DD92A1A66FA001F3BFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B73B1DE02A1A676A001F3BFE /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		B73B1DE22A1A6900001F3BFE /* Boocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boocks.swift; sourceTree = "<group>"; };
+		B73B1DE42A1A6D4B001F3BFE /* HH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HH.swift; sourceTree = "<group>"; };
+		B73B1DE62A1A6D50001F3BFE /* MM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MM.swift; sourceTree = "<group>"; };
+		B73B1DE82A1AB340001F3BFE /* TravelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelModel.swift; sourceTree = "<group>"; };
+		B73B1DEC2A1AB4B7001F3BFE /* Travels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travels.swift; sourceTree = "<group>"; };
+		B73B1DEE2A1AC467001F3BFE /* Travel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,13 @@
 				B73B1DD42A1A66F8001F3BFE /* ContentView.swift */,
 				B73B1DD62A1A66FA001F3BFE /* Assets.xcassets */,
 				B73B1DD82A1A66FA001F3BFE /* Preview Content */,
+				B73B1DE02A1A676A001F3BFE /* BookModel.swift */,
+				B73B1DE22A1A6900001F3BFE /* Boocks.swift */,
+				B73B1DE42A1A6D4B001F3BFE /* HH.swift */,
+				B73B1DE62A1A6D50001F3BFE /* MM.swift */,
+				B73B1DE82A1AB340001F3BFE /* TravelModel.swift */,
+				B73B1DEC2A1AB4B7001F3BFE /* Travels.swift */,
+				B73B1DEE2A1AC467001F3BFE /* Travel2.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B73B1DE92A1AB340001F3BFE /* TravelModel.swift in Sources */,
+				B73B1DED2A1AB4B7001F3BFE /* Travels.swift in Sources */,
+				B73B1DE32A1A6900001F3BFE /* Boocks.swift in Sources */,
+				B73B1DE12A1A676B001F3BFE /* BookModel.swift in Sources */,
 				B73B1DD52A1A66F8001F3BFE /* ContentView.swift in Sources */,
+				B73B1DE52A1A6D4B001F3BFE /* HH.swift in Sources */,
 				B73B1DD32A1A66F8001F3BFE /* ModelApp.swift in Sources */,
+				B73B1DEF2A1AC467001F3BFE /* Travel2.swift in Sources */,
+				B73B1DE72A1A6D50001F3BFE /* MM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
